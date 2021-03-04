@@ -1,3 +1,60 @@
+* {
+    background-color:rgb(59, 61, 68);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;  
+}
+
+/* header and nav bar */
+header {
+    background-color: #ccc;
+}
+
+nav {
+    height: 48px;
+    float: ;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;    
+}
+
+nav li {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+nav li a {
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #dd5771;
+}
+
+}
+
+/* main image */
+.background-image {
+    background-image: url("../images/what-is-coding.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    width: 100;
+}
+
+
+
+/* picture of me */
 .face {
     width: 12rem;
     height: 10rem;
