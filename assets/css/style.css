@@ -68,10 +68,36 @@ nav li a:hover {
     width: 120rem;
 }
 
+/* work links */
+#image {
+    height: 20rem;
+    width: 28rem;
+    padding: 1rem;
+}
 
-
+.links {
+    height:15rem;
+    width: 20rem;
+    padding: 1rem;
+}
 /* about me */
 .face {
     width: 12rem;
     height: 10rem;
+}
+
+/* screen changes */
+@media screen and (max-width: 992px) {
+  header {
+      flex-direction:column;
+  }
+  #image, .links {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    #image, .links {
+        width: 100%;
+    }
 }
