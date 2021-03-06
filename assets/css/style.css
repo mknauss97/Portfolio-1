@@ -1,7 +1,6 @@
 :root {
-    --back:rgb(59, 61, 68);
-    --text: rgb(255, 255, 255);
-    --block: #13293d;
+    --back: #13293d;
+    --text: rgb(255, 254, 254);
 }
 * {
     background-color:var(--back);
@@ -12,13 +11,17 @@
 }
 
 .section, .work{
-    background-color: var(--block);
+    background-color: var(--back);
     padding: 2rem;
 }
 
 /* header and nav bar */
+h1 {
+    margin:2rem;
+    margin-top: 2rem;
+}
 header {
-    background-color: var(--block);
+    background-color: var(--back);
 }
 
 nav {
@@ -57,17 +60,17 @@ nav li a:hover {
 
 /* main image */
 .background-image {
-    background-image: url("../images/what-is-coding.png");
+    background-image: url("../images/coding_channels_resize_md.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 20rem;
-    width: 100;
+    width: 120rem;
 }
 
 
 
-/* picture of me */
+/* about me */
 .face {
     width: 12rem;
     height: 10rem;
